@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author 廖俊瑶
  */
 @SpringBootApplication(scanBasePackages = "com.log")
-public class LogServiceApplication {
+public class LogServiceProducerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LogServiceApplication.class, args);
+        SpringApplication.run(LogServiceProducerApplication.class, args);
     }
 
 }

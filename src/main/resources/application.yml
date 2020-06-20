@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: log-service
+    name: log-service-producer
 
   kafka:
     bootstrap-servers: 192.168.3.154:9092

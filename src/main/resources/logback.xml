@@ -2,8 +2,8 @@
 <configuration debug="false">
 
     <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
-    <property name="LOG_HOME" value="/data/logs/log-service"/>
-    <property name="APP_NAME" value="log-service"/>
+    <property name="LOG_HOME" value="/data/logs/log-service-producer"/>
+    <property name="APP_NAME" value="log-service-producer"/>
 
     <!--控制台日志， 控制台输出 -->
     <appender name="CONSOLE_OUTPUT" class="ch.qos.logback.core.ConsoleAppender">

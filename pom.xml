@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.log</groupId>
-    <artifactId>log-service</artifactId>
+    <artifactId>log-service-producer</artifactId>
     <version>1.0.0</version>
-    <name>log-service</name>
-    <description>Log Service based on Spring Boot</description>
+    <name>log-service-producer</name>
+    <description>Log Service Producer based on Spring Boot</description>
 
     <properties>
         <java.version>14</java.version>
