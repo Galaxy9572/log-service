@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /${spring.application.name}
+
+spring:
+  application:
+    name: log-service
+
+  kafka:
+    bootstrap-servers: 192.168.3.154:9092
+    consumer:
+      auto-offset-reset: earliest
+    producer:
+      # 消息序列化为JSON
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      # 消息发送失败的重试次数
+      retries: 3
+      # 所有节点收到消息才确认
+      acks: all
+    template:
+      default-topic: log

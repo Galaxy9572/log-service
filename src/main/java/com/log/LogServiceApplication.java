@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * @author 廖俊瑶
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.log")
 public class LogServiceApplication {
 
     public static void main(String[] args) {

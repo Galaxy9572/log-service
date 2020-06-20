@@ -1,2 +1,2 @@
 # log-service
-Spring Boot &amp; Kafka Based Log Service
+Spring Boot & Kafka Based Log Service
